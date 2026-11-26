@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Hishuu!</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- First screen -->
+    <section id="home" class="screen">
+
+    <h1>A Little Something Special For You ✨</h1>
+
+    <h2>Happy Birthday, Hisham! 🎂</h2>
+
+    <p>Some sneham for you...</p>
+
+    <div class="gift-container">
+
+        <button class="gift" id="gift"
+                onclick="openGift()"
+                aria-label="Open birthday gift">
+            🎁
+        </button>
+
+        <div id="celebration"></div>
+
+    </div>
+
+</section>
+
+    <!-- Birthday letter -->
+    <section id="letter" class="screen hidden">
+
+        <h1>Happy Birthday! 💗</h1>
+
+        <div class="letter-box">
+            <p>
+                Hey Hishuuu!
+                <br><br>
+
+                Hope your last teen year is very much happenning,
+                exciting,spontaneous and good things only.
+
+                <br><br>
+
+                I am very much grateful to meet a random person
+                on a random day and turns out to be the
+                very wholesome person I have met.
+
+                <br><br>
+
+                Thank you for being such a good friend 
+                and listening to everything I have said
+                and being there for me everytime.
+
+        .
+
+                <br><br>
+                Happy Birthday to my dear junior whom I value a lot 
+                
+
+                <br><br>
+
+                Have the happiest birthday! ❤️
+            </p>
+        </div>
+
+        <button onclick="openSecret()">
+            AND..... ✨
+        </button>
+
+    </section>
+
+    <!-- Secret message -->
+    <section id="secret" class="screen hidden">
+
+        <h1> </h1>
+
+        <div class="letter-box">
+            <p>
+                One more thing...
+
+                <br><br>
+
+                I hope we never run out of random things to talk
+                about, ridiculous conversations to have, or
+                reasons to laugh.
+
+                <br><br>
+
+                Here's to a friendship filled with countless
+                stories, spontaneous conversations and memories
+                we'll look back on someday.
+
+                <br><br>
+
+                Lottssss of love from your shooter chechi....
+                Keep being YOU! ♡
+            </p>
+        </div>
+
+        <button onclick="restart()">
+            Read It Again ↺
+        </button>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
